@@ -1,0 +1,29 @@
+<html>
+    <head>
+       <title> Lets Chat </title>
+       <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="chat.js"></script> 
+    </head>
+    <body id = "body">
+        <button id = "logout" onclick = "logout();"> Logout </button>
+    <center>
+        <h1 id = "user"> Welcome, User</h1>
+        <br>
+        <h2>Add Room</h2>
+        <br>
+        <br>
+        <input id = "room_name" class = "form-control">
+        <br>
+        <button id = "add" onclick = "add();"> Add Room</button>
+        <br>
+        <h2> Trending Rooms </h2>
+        <br>
+        <div id = "output"></div>
+    </center>
+    </body>

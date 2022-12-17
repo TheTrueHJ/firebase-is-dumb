@@ -1,0 +1,41 @@
+#body{
+    background-image: url(ee0a47d7342f4ab1db5590793875d53c.png);
+    background-size: cover;
+} 
+#log{
+    background-color: azure;
+    margin-top: 500px;
+}
+#welimg{
+    width: 200px;
+    height: 200px;
+}
+#login{
+    background-color:rgb(112, 166, 213);
+    width: 100px;
+    height: 50px;
+    border-radius:25px;
+}
+
+#add{
+    background-color:rgb(112, 166, 213);
+    width: 100px;
+    height: 50px;
+    border-radius:25px;
+}
+
+#logout{
+    background-color:rgb(112, 166, 213);
+    width: 100px;
+    height: 50px;
+}
+
+#type{
+    background-color: cadetblue;
+}
+
+#sender{
+    background-color:rgb(112, 166, 213);
+    width: 100px;
+    height: 50px;   
+}
